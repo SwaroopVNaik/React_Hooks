@@ -109,5 +109,20 @@ and returns : Current state and Dispatch method.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# UseLayoutEffect in React Hook : 
+# useLayoutEffect in React Hook : 
 
+- ## useLayoutEffect works similar to useEffect, but it runs before the browser displays the UI on the screen.
+
+- ## useEffect runs after the DOM is rendered and visible to the user.
+
+- ## useLayoutEffect runs before the DOM is painted on the screen, making it useful for measuring or updating layout without flickering.
+
+- ## In React Document is says that the useLayoutEffect will hurt the performance of the application so it is recommended to use useEffect when ever its possible
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# CustomHook in React Hook : 
+
+- ## React allows us to create our own Hook which is known as custom hook. 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
