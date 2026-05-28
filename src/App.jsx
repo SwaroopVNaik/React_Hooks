@@ -1,10 +1,12 @@
-import Red from "./React_Hooks/useReducer/Red";
+import Hook from "./React_Hooks/CustomHook/Hook";
 
 let App = () => {
 
   return <div>
-            <Red/>
-         </div>
+
+    <Hook/>
+
+  </div>
 
 }
 
