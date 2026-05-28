@@ -87,3 +87,27 @@
 ### - useCallback -> caches a function.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# UseContext in React Hook : 
+
+- ## useContext is a React Hook used to share data between components without passing props manually at every level.
+
+- ## It helps manage global data like user info, theme, language, or authentication across the React app.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# UseReducer in React Hook : 
+
+- ## UseReducer is similar to useState, But instead of providing state and setter function. It provides state and dispatch fucntion
+
+- ## The UseReducer Hook Accepts two arguments : 
+- Reducer Function 
+- Initial state 
+and returns : Current state and Dispatch method.
+
+- ## The Reducer Function specifies how the state gets updated.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# UseLayoutEffect in React Hook : 
+
